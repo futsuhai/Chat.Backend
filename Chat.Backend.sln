@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{40BA074C-877F-49E4-B8F4-FD0D98FEA973}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{2EC30BBF-62A8-4C38-A3CE-F58693B3BB82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Backend.Start", "Chat.Backend.Start\Chat.Backend.Start.csproj", "{CBAF7CA1-6C82-4C12-B695-045E237A3FEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{749CA223-4849-409E-83DD-5F413C752BE8}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Storage", "Storage\Storage.csproj", "{FDD11736-7DA6-4804-AE21-EB08B176F5B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastucture", "Infrastucture", "{DB07FFF3-6E2D-44CE-8A57-CC16E8A5F406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Backend.Web", "Chat.Backend.Web\Chat.Backend.Web.csproj", "{6BD034F5-5919-4B91-AB69-3494EB830343}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Backend.Services", "Chat.Backend.Services\Chat.Backend.Services.csproj", "{29CA563A-7CA7-4D8B-8577-D038EE22EC09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat.Backend.Abstractions", "Chat.Backend.Abstractions\Chat.Backend.Abstractions.csproj", "{50815B91-5C19-4B32-B022-493A564A2470}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CBAF7CA1-6C82-4C12-B695-045E237A3FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBAF7CA1-6C82-4C12-B695-045E237A3FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBAF7CA1-6C82-4C12-B695-045E237A3FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBAF7CA1-6C82-4C12-B695-045E237A3FEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDD11736-7DA6-4804-AE21-EB08B176F5B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDD11736-7DA6-4804-AE21-EB08B176F5B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDD11736-7DA6-4804-AE21-EB08B176F5B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDD11736-7DA6-4804-AE21-EB08B176F5B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BD034F5-5919-4B91-AB69-3494EB830343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD034F5-5919-4B91-AB69-3494EB830343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD034F5-5919-4B91-AB69-3494EB830343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD034F5-5919-4B91-AB69-3494EB830343}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29CA563A-7CA7-4D8B-8577-D038EE22EC09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29CA563A-7CA7-4D8B-8577-D038EE22EC09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29CA563A-7CA7-4D8B-8577-D038EE22EC09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29CA563A-7CA7-4D8B-8577-D038EE22EC09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50815B91-5C19-4B32-B022-493A564A2470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50815B91-5C19-4B32-B022-493A564A2470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50815B91-5C19-4B32-B022-493A564A2470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50815B91-5C19-4B32-B022-493A564A2470}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FDD11736-7DA6-4804-AE21-EB08B176F5B5} = {2EC30BBF-62A8-4C38-A3CE-F58693B3BB82}
+		{6BD034F5-5919-4B91-AB69-3494EB830343} = {DB07FFF3-6E2D-44CE-8A57-CC16E8A5F406}
+		{29CA563A-7CA7-4D8B-8577-D038EE22EC09} = {40BA074C-877F-49E4-B8F4-FD0D98FEA973}
+		{50815B91-5C19-4B32-B022-493A564A2470} = {40BA074C-877F-49E4-B8F4-FD0D98FEA973}
+	EndGlobalSection
+EndGlobal
