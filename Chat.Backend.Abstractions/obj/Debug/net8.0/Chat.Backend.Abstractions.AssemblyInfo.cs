@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Chat.Backend.Abstractions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca6c3955bc81ad54087bee009a3424ceb4fff7e1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ce7fe4f2a3c0d33b50d9112aa22043be871d2a5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Chat.Backend.Abstractions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Chat.Backend.Abstractions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

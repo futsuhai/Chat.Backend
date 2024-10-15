@@ -3,11 +3,7 @@ using Chat_Backend.Models.Options;
 using Chat_Backend.Repositories.AccountRepository;
 using Chat_Backend.Repositories.Context;
 using Chat_Backend.Services.AccountService;
-using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using Services.Services.AccountService;
 
 var builder = WebApplication.CreateBuilder(args);
